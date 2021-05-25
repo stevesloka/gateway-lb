@@ -1,0 +1,16 @@
+domain: stevesloka.com
+layout:
+- go.kubebuilder.io/v3
+projectName: gateway-lb
+repo: github.com/stevsloka.com/gateway-lb
+resources:
+- api:
+    crdVersion: v1
+    namespaced: true
+  controller: true
+  domain: stevesloka.com
+  group: gateway
+  kind: AWSGateway
+  path: github.com/stevsloka.com/gateway-lb/api/v1alpha1
+  version: v1alpha1
+version: "3"

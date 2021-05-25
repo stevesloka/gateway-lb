@@ -1,0 +1,5 @@
+apiVersion: gateway.stevesloka.com/v1alpha1
+kind: AWSGateway
+metadata:
+  name: awsgateway-sample
+spec:
